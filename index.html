@@ -845,11 +845,15 @@
           <div
             class="glass-card p-6 rounded-xl border border-white/5 text-center hover:border-brand/30 transition-all"
           >
-            <div
-              class="w-14 h-14 mx-auto rounded-full bg-surface border border-white/10 flex items-center justify-center font-bold text-lg mb-4"
-            >
-              CV
-            </div>
+            <img
+              src="./carlos.jpeg"
+              alt="Carlos Verenzuela"
+              class="w-14 h-14 mx-auto rounded-full object-cover border border-white/10 mb-4"
+              onerror="
+                this.style.display = 'none';
+                this.nextElementSibling.style.display = 'flex';
+              "
+            />
             <p class="font-bold text-sm leading-tight">
               Carlos<br />Verenzuela
             </p>
